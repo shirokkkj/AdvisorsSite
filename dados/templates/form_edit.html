@@ -1,0 +1,15 @@
+<link rel="stylesheet" href=" {{url_for('static', filename='css/form.css')}} ">
+
+<form method="POST", action="register">
+    {{ form.hidden_tag() }}
+        <div class="mb-3">                   
+                <label for="email" class="form-label">{{ form.name.label }}</label>
+                {{ form.name(class="form-control", id="name", placeholder="Nome do usuário") }}
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label">{{ form.password.label }}</label>
+            {{ form.password(class="form-control", id="password", placeholder='Senha do usuário') }}
+        </div>
+        {{form.submit_edit(class='submit-register')}}
+</form>

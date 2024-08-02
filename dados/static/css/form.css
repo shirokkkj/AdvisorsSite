@@ -1,0 +1,39 @@
+.mb-3 > input {
+    border-radius: 8px;
+    border: none;
+    background: #9dc5d0 ;
+    padding: 10px;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    width: 450px;
+}
+
+.mb-3 > input::placeholder {
+    color: #f0ffffde;
+    opacity: 0.7;
+}
+
+
+.mb-3 > label {
+    color: #9dc5d0;
+    margin-bottom: 10px;
+}
+
+.submit-register {
+    width: 100%;
+    padding: 13px 0px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #000000;
+    background-color: #9dc5d0;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px -12px #60d9fa;
+
+}
